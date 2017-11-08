@@ -1,0 +1,169 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 940px; 
+	padding: 0 10px; 
+}
+
+span {
+  font-weight: bold;
+}
+
+
+/* Header */
+.header {
+  height: 800px;
+  text-align: center; 
+  background: url(group1.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.header .container {
+	position: relative;
+	top: 200px;
+}
+
+.header h1 {
+	font-size: 100px;
+	line-height: 100px; 
+  color: #fff;
+	margin-bottom: 80px;
+  font-weight: 500;
+  opacity: 0.5;
+}
+
+@media (min-width:850px) {
+	.header h1 {
+		font-size: 120px;
+	}
+}
+
+.header p {
+  font-size: 25px;
+	font-weight: 500;
+  color: white;
+	letter-spacing: 8px;
+	margin-bottom: 40px;
+	margin-top: 0;
+  text-transform: uppercase;
+}
+
+.header a {
+  border: 1px solid black;
+  background: black;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.btn:hover {
+	background: #117bff;
+	cursor: pointer; 
+	transition: background .5s;  
+}
+
+.navbar {
+  background-color: yellow;
+  height: 60px;
+  padding: 10px 10px;
+  margin: 0;
+}
+
+/*.nav li {
+	list-style: none;
+	margin: 0 auto; 
+	padding: 0 10px;
+	text-align: center;
+  color: white;
+  display: inline;
+}*/
+
+
+/* Main */
+.main .container {
+	margin: 80px auto;
+}
+
+
+/* Jumbotron */
+.jumbotron {
+	height: 600px; 
+	text-align: left;
+  color: white;
+  background: limegreen;
+  /*
+  background: url(http://nevisblog.com/Photos/st-kitts-nevis-2012-olympic-team.jpg) no-repeat center center;
+  background-size: cover;
+  */
+}
+
+.jumbotron .container {
+	position: relative;
+	top: 220px;
+  
+}
+
+.photos li {
+  display: inline;
+  padding: 15px;
+}
+
+.photos img {
+  width: 25%;
+  
+}
+
+/*
+.photos li:hover {
+	background: #117bff;
+	cursor: pointer; 
+	transition: background .10s;  
+}
+*/
+
+/*
+.jumbotron img {
+  width: 20%;
+}
+*/
+
+/* Footer */
+.footer { 
+	font-size: 14px;  
+	background: black;
+  color: white;
+  height: 50px;
+  padding: 15px;
+}
+
+
+/* Media Queries */
+@media (max-width: 500px) {
+  .header h1 {
+    font-size: 50px;
+    line-height: 64px;
+  }
+
+  .main, .jumbotron {
+    padding: 0 50px;
+  }
+
+  
+  .main img {
+    float: left;
+    width: 50%;
+    padding-right: 30px;
+    size: 20px;
+    max-width: 50px;
+  }
+}
