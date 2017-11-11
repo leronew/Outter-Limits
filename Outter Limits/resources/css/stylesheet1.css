@@ -23,7 +23,7 @@ span {
 .header {
   height: 800px;
   text-align: center; 
-  background: url(group1.jpg) no-repeat center center;
+  background-image: url("./resources/images/group1.jpg");
   background-size: cover;
 }
 
@@ -120,7 +120,7 @@ span {
 
 .photos img {
   width: 25%;
-  
+	height: auto;
 }
 
 /*
